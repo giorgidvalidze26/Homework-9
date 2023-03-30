@@ -1,0 +1,199 @@
+.section1 {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.background_img {
+    max-width: 100%;
+    height: 700px;
+    background-image: url("../img/Rectangle\ 30.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.iconlogo{
+    display: none;
+}
+header {
+    width: 100%;
+    position: absolute;
+    padding: 32px 125px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 54px;
+}
+
+li,
+.lione {
+    color: #fff;
+    font-family: Gentium Book Basic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+
+  
+}
+li, .lione:hover{
+    color:crimson;
+    font-size: 40px;
+
+    
+
+}
+
+
+.head {
+    width: 60%;
+    height: 50vh;
+    font-family: Gentium Book Basic;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff;
+    position: absolute;
+    top: 512px;
+    margin-left: 350px;
+    text-align: center;
+
+
+
+}
+
+.section2 {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2A2626;
+}
+
+h1 {
+    color: #fff;
+    font-family: Gentium Book Basic;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 42px;
+
+}
+
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 96px;
+
+}
+
+.card_img{
+    width: 100%;
+    height: 50vh;
+}
+.card:hover{
+    filter: drop-shadow(10px 0px 20px #fff);
+    
+}
+
+.section3 {
+    max-width: 100%;
+    background-color: #0B0A0A;
+}
+
+h2 {
+    color: #fff;
+    font-family: Gentium Book Basic;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 42px;
+
+}
+
+.cards_two {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 96px;
+    /* margin: 0 auto; */
+    
+
+}
+
+.card_two2{
+   width:  40%;
+   
+}
+
+.card_twoimg{
+    width: 100%;
+    height: 50vh;
+   
+    
+}
+.card_two3 {
+    width: 40%;
+    display: flex;
+    background-color: #8E8B8B;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardp {
+    width: 60%;
+    color: #fff;
+    font-family: Gentium Book Basic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center
+
+}
+
+footer{
+    max-width: 100%;
+    background-color: #2A2626;
+    display: flex;
+    /* align-items: center; */
+    padding: bottom 32px; 
+
+    
+}
+.footimg{
+    padding: 32px 125px ;
+    
+}
+
+.icon{
+    width: 60%;
+    align-items: center;
+    gap: 45px;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+   
+}
+
+.ftimg:hover{
+    filter: drop-shadow(10px 10px 5px cyan)
+    
+}
+   
+
